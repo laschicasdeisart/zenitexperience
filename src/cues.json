@@ -1,0 +1,21 @@
+{
+  "fps": 30,
+  "duration": 30,
+  "audio": "audio/voz.mp3",
+  "scenes": [
+    { "id": "s1", "start": 0,  "design": 6, "anchor": "Tu formación ya tiene alumnos" },
+    { "id": "s2", "start": 6,  "design": 8, "anchor": "Con Zenit Experience" },
+    { "id": "s3", "start": 14, "design": 7, "anchor": "Tus alumnos tienen un camino" },
+    { "id": "s4", "start": 21, "design": 6, "anchor": "Y tu marca ofrece" },
+    { "id": "s5", "start": 27, "design": 3, "anchor": "Zenit Experience. Visualiza" }
+  ],
+  "beats": {
+    "s1.question":    { "scene": "s1", "offset": 3.2, "anchor": "vídeos y más vídeos" },
+    "s2.app":         { "scene": "s2", "offset": 0.7 },
+    "s2.juego":       { "scene": "s2", "offset": 3.2 },
+    "s2.universo":    { "scene": "s2", "offset": 5.3, "anchor": "todo un universo" },
+    "s3.avance":      { "scene": "s3", "offset": 3.6, "anchor": "para seguir" },
+    "s4.recomendado": { "scene": "s4", "offset": 2.2, "anchor": "recomendado" },
+    "s5.cta":         { "scene": "s5", "offset": 1.1, "anchor": "Visualiza tu formación" }
+  }
+}

@@ -156,7 +156,8 @@ img { user-select: none; }
 .s5-brand { position: absolute; left: 90px; right: 90px; top: 700px; text-align: center; }
 .s5-name { font: 700 108px/1.02 Poppins, sans-serif; color: var(--white); letter-spacing: inherit; margin-right: -0.06em; }
 .s5-brand.has-custom .s5-name { display: none; }
-.s5-logo { max-width: 760px; max-height: 340px; margin: 0 auto; }
+.s5-brand.has-custom { top: 520px; }
+.s5-logo { max-width: 760px; max-height: 440px; margin: 0 auto; }
 .s5-rule { position: absolute; left: 470px; top: 1004px; width: 140px; height: 4px; border-radius: 2px; background: var(--grad); }
 .s5-cta {
   position: absolute; left: 50%; top: 1062px; transform: translateX(-50%); white-space: nowrap;

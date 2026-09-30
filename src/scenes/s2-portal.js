@@ -67,7 +67,7 @@ export function buildS2({ gsap, tl, timing, stage, universe }) {
   tl.to(phone, { scale: 1 / K, y: 0, rotation: 0, duration: 0.85, ease: 'power3.inOut' }, tZoom);
   tl.to(portal.root, { scale: 2.6, autoAlpha: 0, duration: 0.7, ease: 'power2.in' }, tZoom);
   tl.to(chrome, { autoAlpha: 0, duration: 0.3 }, tZoom + 0.35);
-  tl.to(phone, { autoAlpha: 0, duration: 0.25, ease: 'none' }, tZoom + 0.72);
+  tl.to(phone, { autoAlpha: 0, duration: 0.5, ease: 'sine.inOut' }, tZoom + 0.45); // fundido largo: funciona también con una captura real
   tl.to(root, { autoAlpha: 0, duration: 0.01 }, tZoom + 1.0);
   return { phone, portal, tZoom, K };
 }
